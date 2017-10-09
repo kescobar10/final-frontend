@@ -133,39 +133,6 @@ button.btn-inner a:hover {
     flex: 1;
 }
 
-/** Inner pages content **/
-
-.inner-main {
-    max-width: 960px;
-    margin: auto;
-}
-
-section h2 {
-    font-family: 'Arvo';
-    font-size: 1.8em;
-    padding: 30px 0;
-    font-weight: 700;
-    color: #404040;
-}
-
-section p {
-    font-family: 'Montserrat';
-    font-size: 1.1em;
-    font-weight: 300;
-    padding-bottom: 7px;
-    line-height: 1.5;
-    color: #404040;
-}
-
-section ul li {
-    font-family: 'Montserrat';
-    font-size: 1.1em;
-    font-weight: 300;
-    padding-bottom: 7px;
-    line-height: 1.5;
-    color: #404040;
-    list-style-position: inside;
-}
 
 /** Navigation **/
 nav.nav-home-top {
@@ -212,6 +179,86 @@ nav.nav-home-top {
     color: #e3001a;
 }
 
+/** Inner pages content **/
+
+.inner-main {
+    max-width: 960px;
+    margin: auto;
+}
+
+section h2 {
+    font-family: 'Arvo';
+    font-size: 1.8em;
+    padding: 30px 0;
+    font-weight: 700;
+    color: #404040;
+}
+
+section.inner-main p {
+    font-family: 'Montserrat';
+    font-size: 1.1em;
+    font-weight: 300;
+    padding-bottom: 7px;
+    line-height: 1.5;
+    color: #404040;
+}
+
+section ul li {
+    font-family: 'Montserrat';
+    font-size: 1.1em;
+    font-weight: 300;
+    padding-bottom: 7px;
+    line-height: 1.5;
+    color: #404040;
+    list-style-position: inside;
+}
+
+
+/** Issues grid **/
+#card-wrapper {
+    max-width: 960px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px 500px 500px;
+    grid-template-areas: "economic taxes" "smalltown safety" "development children"
+}
+
+#economic {
+    grid-area: economic;
+    text-align: center;
+}
+
+#taxes {
+    grid-area: taxes;
+    text-align: center;
+}
+
+#smalltown {
+    grid-area: smalltown;
+    text-align: center;
+}
+
+#safety {
+    grid-area: safety;
+    text-align: center;
+}
+
+#development {
+    grid-area: development;
+    text-align: center;
+}
+
+#children {
+    grid-area: children;
+    text-align: center;
+}
+
+h5 {
+
+}
+
+
 /** Call to action buttions **/
 #cta-wrapper {
     display: flex;
@@ -235,7 +282,7 @@ nav.nav-home-top {
     color: #e3dec0;
 }
 
-#cta-wrapper article a h2 {
+#cta-wrapper article a h3 {
     font-family: 'Montserrat';
     text-transform: uppercase;
     font-weight: 300;
@@ -246,6 +293,7 @@ nav.nav-home-top {
     font-family: 'Arvo';
     font-size: 1.2em;
     font-weight: 400;
+    color: #ffff;
 }
 
 /** Banner **/
@@ -271,7 +319,7 @@ nav.nav-home-top {
     display: block;
 }
 
-h3 {
+h4 {
     position: absolute;
     top: 200px;
     left: 0;
@@ -282,7 +330,7 @@ h3 {
     font-weight: 300;
 }
 
-h3 span {
+h4 span {
     color: white;
     background-color: rgba(193, 66, 66, 0.76);
     padding: 50px 250px;
