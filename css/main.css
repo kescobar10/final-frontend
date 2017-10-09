@@ -348,6 +348,23 @@ input {
     width:
 }
 
+button.read-more {
+    height: 30px;
+    width: 100px;
+    background-color: #e3001a;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button.read-more a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a.blog-link {
+    text-decoration: none;
+    color: #e3001a;
+}
 
 
 /** Call to action buttions **/
