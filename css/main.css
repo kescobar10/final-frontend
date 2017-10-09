@@ -266,6 +266,60 @@ section ul li {
     color: #e3001a;
 }
 
+/** Issues page with sidebar **/
+
+.issues-wrapper {
+    max-width: 960px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "issues-left widget-right"
+}
+
+.issues-left {
+    grid-area: issues-left;
+}
+
+.widget-right {
+    grid-area: widget-right;
+    font-family: 'Montserrat';
+    font-size: 1.1em;
+    font-weight: 300;
+    padding-bottom: 7px;
+    line-height: 1.5;
+    color: #404040;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.issues-left p {
+    font-family: 'Montserrat';
+    font-size: 1.1em;
+    font-weight: 300;
+    padding-bottom: 7px;
+    line-height: 1.5;
+    color: #404040;
+}
+
+.issue-card {
+    height: 50px;
+    background-color: #e3dec0;
+    margin-bottom: 10px;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.issue-card a {
+    text-decoration: none;
+    color: #404040;
+}
+
+.issue-card a:hover {
+    color: #e3001a;
+}
+
+
 /** Call to action buttions **/
 #cta-wrapper {
     display: flex;
