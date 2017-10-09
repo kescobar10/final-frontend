@@ -216,48 +216,55 @@ section ul li {
 
 /** Issues grid **/
 #card-wrapper {
-    max-width: 960px;
+    max-width: 600px;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 500px 500px 500px;
+    grid-template-rows: 400px 400px 400px;
     grid-template-areas: "economic taxes" "smalltown safety" "development children"
 }
 
 #economic {
     grid-area: economic;
-    text-align: center;
 }
 
 #taxes {
     grid-area: taxes;
-    text-align: center;
 }
 
 #smalltown {
     grid-area: smalltown;
-    text-align: center;
 }
 
 #safety {
     grid-area: safety;
-    text-align: center;
 }
 
 #development {
     grid-area: development;
-    text-align: center;
 }
 
 #children {
     grid-area: children;
+}
+
+.cards {
     text-align: center;
+    font-family: "Arvo";
+    font-size: 1.5em;
+    background-color: #e3dec0;
+    margin: 10px;
+    padding: 160px 10px;
 }
 
-h5 {
-
+#card-wrapper a {
+    text-decoration: none;
+    color: #404040;
 }
 
+#card-wrapper a:hover {
+    color: #e3001a;
+}
 
 /** Call to action buttions **/
 #cta-wrapper {
