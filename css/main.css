@@ -7,3 +7,54 @@
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
 }
+
+/** Header **/
+
+header {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#header-left {
+    flex: 1;
+}
+
+#header-left img {
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+#header-right {
+    flex: 1;
+}
+
+#header-right img {
+    width: 60%;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+#header-right button {
+    background-color: #e3001a;
+    height: 50px;
+    width: 200px;
+    margin-top: 10px;
+    margin: auto;
+    display: block;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+}
+
+#header-right button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3em;
+}
+
+#header-right button a:hover {
+    color: #efecda;
+}
