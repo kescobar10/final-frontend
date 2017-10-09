@@ -319,6 +319,36 @@ section ul li {
     color: #e3001a;
 }
 
+time {
+    font-family: 'Montserrat';
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: #404040;
+    display: block;
+    padding-top: 40px;
+}
+
+.contact-card {
+    height: 300px;
+    background-color: #e3dec0;
+    margin-bottom: 10px;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+input {
+    height: 35px;
+    margin: 5px 0;
+    width: 90%;
+}
+
+#submit {
+    background-color: #e3001a;
+    color: #fff;
+    width:
+}
+
+
 
 /** Call to action buttions **/
 #cta-wrapper {
