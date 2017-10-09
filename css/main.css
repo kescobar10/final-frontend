@@ -128,3 +128,39 @@ nav.nav-home-top {
 .nav-home-top ul li a:hover {
     color: #e3001a;
 }
+
+/** Call to action buttions **/
+#cta-wrapper {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+}
+.call-to-action {
+    flex: 1;
+    text-align: center;
+    margin: 5px;
+    height: 200px;
+    background-color: #e3001a;
+}
+
+#cta-wrapper article a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#cta-wrapper article a:hover {
+    color: #e3dec0;
+}
+
+#cta-wrapper article a h2 {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 70px 0 0 0;
+}
+
+#cta-wrapper article a p {
+    font-family: 'Arvo';
+    font-size: 1.2em;
+    font-weight: 400;
+}
