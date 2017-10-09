@@ -164,3 +164,43 @@ nav.nav-home-top {
     font-size: 1.2em;
     font-weight: 400;
 }
+
+/** Banner **/
+#hp-banner {
+    position: relative;
+    width: 100%;
+}
+
+#hp-banner img {
+    max-width: 1200px;
+    margin: auto;
+    display: block;
+}
+
+h3 {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Arvo';
+    font-size: 1.8em;
+    font-weight: 300;
+}
+
+h3 span {
+    color: white;
+    background-color: rgba(193, 66, 66, 0.76);
+    padding: 50px 250px;
+    color: #e3dec0
+}
+
+#naperville {
+    font-family: 'Montserrat';
+    padding: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0);
+
+}
