@@ -342,10 +342,9 @@ input {
     width: 90%;
 }
 
-#submit {
+input.submit {
     background-color: #e3001a;
     color: #fff;
-    width:
 }
 
 button.read-more {
@@ -453,6 +452,18 @@ h4 span {
     font-size: 1.5em;
     background-color: rgba(0, 0, 0, 0);
 }
+
+/** Contact form **/
+
+#contact-form {
+    background-color: #e3dec0;
+    margin-top: 50px;
+    font-family: 'Montserrat';
+    padding: 25px;
+    align-items: center;
+}
+
+
 
 /** Bottom logo **/
 
